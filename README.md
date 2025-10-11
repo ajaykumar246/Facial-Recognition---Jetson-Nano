@@ -116,7 +116,7 @@ python3 server.py
 ---
 
 ## Troubleshooting & Jetson tips
-- If TensorFlow doesn't detect the GPU on Jetson, verify your JetPack/CUDA/cudnn/TensorRT versions match the TensorFlow wheel. NVIDIA's JetPack installer includes compatible versions. citeturn0search1turn0search19  
+- If TensorFlow doesn't detect the GPU on Jetson, verify your JetPack/CUDA/cudnn/TensorRT versions match the TensorFlow wheel. NVIDIA's JetPack installer includes compatible versions.
 - For inference speed, convert TFLite models to TensorRT engines (TF-TRT) or use TensorRT directly.  
 - If `opencv-python` wheel fails on Jetson, install OpenCV from source or use the Jetson-optimized OpenCV packages.
 
