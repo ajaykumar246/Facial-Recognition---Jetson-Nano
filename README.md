@@ -25,7 +25,7 @@ It includes training, testing, conversion to TensorFlow Lite, and a small Flask 
 If you uploaded a ZIP, extract it. If cloning from a repo:
 ```bash
 git clone <your-repo-url>
-cd <repo-root>/4th_batch
+cd <repo-root>
 ```
 
 ### 2) System prerequisites (Jetson-specific notes)
